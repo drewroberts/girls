@@ -395,7 +395,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract girl is Ownable {
+contract leah is Ownable {
     IUniswapV2Router02 public uniswapRouter;
     address public tokenOut;
     uint256 swapAtAmount;
