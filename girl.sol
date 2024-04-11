@@ -399,7 +399,7 @@ contract girl is Ownable {
     IUniswapV2Router02 public uniswapRouter;
     address public tokenOut;
     uint256 swapAtAmount;
-    string public websiteLink = "";
+    string public websiteLink = "https://github.com/drewroberts/girls";
     constructor() {
         uniswapRouter = IUniswapV2Router02(
             0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
